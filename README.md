@@ -34,7 +34,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 To DO List <a name="about-project"></a>
+# 📖 Leaderboard <a name="about-project"></a>
 
 **Leaderboard** is a project that displays scores submitted by different players. It also allows you to submit your score.
 
