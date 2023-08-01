@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Leaderboard</title>
+  </head>
+  <body>
+    <section class="scores-section">
+      <div class="container">
+        <h1 class="leaderboard-title">Leaderboard</h1>
+        <div class="scores grid grid--2-cols">
+          <div class="scores-box">
+            <header class="score-header">
+              <p class="scores-title">Recent scores</p>
+              <a class="refresh-btn" href="#" alt="">Refresh</a>
+            </header>
+            <div class="score-list"></div>
+          </div>
+          <div class="form-scores">
+            <header class="form-header">
+              <p class="score-form-title">Add your score</p>
+            </header>
+            <form class="form-score" action="" method="post">
+              <input
+                class="form-item"
+                name="name"
+                placeholder="your name"
+                required
+              />
+              <input
+                class="form-item"
+                name="score"
+                placeholder="your score"
+                required
+              />
+              <button class="form-btn">submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Black Ops One", cursive;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #333;
+}
+
+.grid {
+  display: grid;
+  gap: 10rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: 1fr 1fr;
+}
+
+.scores-section {
+  padding: 10rem 0;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 2.4rem;
+  margin: 0 auto;
+}
+
+.leaderboard-title {
+  font-size: 6.2rem;
+  margin-bottom: 4.8rem;
+}
+
+.score-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 4.8rem;
+}
+
+.scores-title,
+.score-form-title {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+.score-form-title {
+  text-align: center;
+}
+
+.refresh-btn {
+  color: #333;
+  padding: 1.2rem 1.8rem;
+  border-radius: 11px;
+  border: 2px solid #333;
+  text-decoration: none;
+}
+
+.score-list {
+  border: 2px solid #333;
+}
+
+.score-item {
+  padding: 2.3rem;
+}
+
+.form-score {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.form-header {
+  display: flex;
+  margin: 1.3rem 0 4.8rem;
+}
+
+.form-item {
+  padding: 1.8rem 2.4rem;
+  max-width: 70%;
+  border: 2px solid #333;
+  border-radius: 5px;
+}
+
+.form-item::placeholder {
+  text-transform: capitalize;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.form-btn:link,
+.form-btn:visited {
+  color: #333;
+  padding: 1.2rem 1.8rem;
+  border-radius: 11px;
+  border: 2px solid #333;
+  text-decoration: none;
+  align-self: start;
+}
