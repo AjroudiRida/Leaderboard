@@ -96,8 +96,7 @@ body {
   font-weight: 600;
 }
 
-.form-btn:link,
-.form-btn:visited {
+.form-btn {
   color: #333;
   padding: 1.2rem 1.8rem;
   border-radius: 11px;
