@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: "Black Ops One", cursive;
+  font-family: 'Inter', sans-serif;
   font-size: 2rem;
   font-weight: 400;
   color: #333;
@@ -62,6 +62,9 @@ body {
   border-radius: 11px;
   border: 2px solid #333;
   text-decoration: none;
+  font-family: inherit;
+  font-size: 1.8rem;
+  font-weight: 600;
 }
 
 .score-list {
@@ -85,15 +88,18 @@ body {
 
 .form-item {
   padding: 1.8rem 2.4rem;
-  max-width: 70%;
   border: 2px solid #333;
   border-radius: 5px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: inherit;
 }
 
 .form-item::placeholder {
   text-transform: capitalize;
   font-size: 1.8rem;
   font-weight: 600;
+  font-family: inherit;
 }
 
 .form-btn {
@@ -102,5 +108,11 @@ body {
   border-radius: 11px;
   border: 2px solid #333;
   text-decoration: none;
-  align-self: start;
+  align-self: end;
+  font-size: 1.8rem;
+  font-family: inherit;
+  font-weight: 600;
+  text-transform: capitalize;
+  background: none;
+  cursor: pointer;
 }
