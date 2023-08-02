@@ -17,7 +17,8 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
-  - [🚀 Live Demo](#live-demo)
+    - [Key Features](#key-features)
+  <!-- - [🚀 Live Demo](#live-demo) -->
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -26,6 +27,7 @@
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
+[🔭 Future Features](#future-features)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -47,14 +49,24 @@
 - Javascript
 - webpack
 
-<!-- LIVE DEMO -->
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+
+- Get and submit data using fetch API with the help of async function
+- use of webpack
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://ajroudirida.github.io/Leaderboard)
+- [Live Demo Link](https://ajroudirida.github.io/Leaderboard/dist)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- GETTING STARTED -->
 
@@ -111,6 +123,12 @@ you can deploy this project using: any web hosting provider such as neamcheap, g
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ] **[Data management using fetch API]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
